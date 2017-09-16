@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smartivity", "Assembly-CSharp.csproj", "{FD0C5C70-3802-C339-2071-3DA3B8BE9692}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smartivity", "Assembly-CSharp-Editor.csproj", "{258F2CBC-FC88-A264-49CD-4C84B812A915}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD0C5C70-3802-C339-2071-3DA3B8BE9692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD0C5C70-3802-C339-2071-3DA3B8BE9692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD0C5C70-3802-C339-2071-3DA3B8BE9692}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD0C5C70-3802-C339-2071-3DA3B8BE9692}.Release|Any CPU.Build.0 = Release|Any CPU
+		{258F2CBC-FC88-A264-49CD-4C84B812A915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{258F2CBC-FC88-A264-49CD-4C84B812A915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{258F2CBC-FC88-A264-49CD-4C84B812A915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{258F2CBC-FC88-A264-49CD-4C84B812A915}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
