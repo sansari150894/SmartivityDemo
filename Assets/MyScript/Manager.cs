@@ -11,6 +11,7 @@ public class Manager : MonoBehaviour {
 	public Image black;
 	public int remainingCube = 3;
 	public  List <GameObject> list=new List<GameObject>();
+	public GameObject Player;
 
 	public MeshRenderer mr;
 
