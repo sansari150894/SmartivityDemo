@@ -168,6 +168,7 @@
      <Compile Include="Assets\MyScript\CircularFiller.cs" />
      <Compile Include="Assets\MyScript\InitialFadeIn.cs" />
      <Compile Include="Assets\MyScript\Manager.cs" />
+     <Compile Include="Assets\MyScript\NewBehaviourScript.cs" />
      <Compile Include="Assets\MyScript\ObjectHideScript.cs" />
      <Compile Include="Assets\MyScript\SceneLoad.cs" />
      <None Include="Assets\DOTween\readme.txt" />
@@ -210,10 +211,10 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="DOTween">
- <HintPath>C:/Users/ansari/Documents/Smartivity/Assets/DOTween/DOTween.dll</HintPath>
+ <HintPath>D:/unity/Smartivity/Assets/DOTween/DOTween.dll</HintPath>
  </Reference>
  <Reference Include="Google.ProtocolBuffers">
- <HintPath>C:/Users/ansari/Documents/Smartivity/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
+ <HintPath>D:/unity/Smartivity/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

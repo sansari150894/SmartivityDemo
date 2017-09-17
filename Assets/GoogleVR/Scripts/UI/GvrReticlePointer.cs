@@ -137,8 +137,8 @@ public class GvrReticlePointer : GvrBasePointer {
 		GetComponent<MeshFilter>().mesh = mesh;
 
     Renderer rendererComponent = GetComponent<Renderer>();
-    rendererComponent.sortingOrder = reticleSortingOrder;
-	MaterialComp = rendererComponent.material;
+//    rendererComponent.sortingOrder = reticleSortingOrder;
+//	MaterialComp = rendererComponent.material;
 		//materialComp = gameObject.GetComponent<Renderer>().material;
 	CreateReticleVertices();
   }

@@ -1,12 +1,14 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\GoogleVR\Scripts\UI\GvrReticlePointer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MyScript\SceneLoad.cs">
     <Files>
-      <File FileName="Assets\GoogleVR\Scripts\UI\GvrReticlePointer.cs" Line="23" Column="2" />
+      <File FileName="Assets\GoogleVR\Scripts\UI\GvrReticlePointer.cs" Line="141" Column="3" />
       <File FileName="Assets\MyScript\ButtonClickCheck.cs" Line="1" Column="1" />
       <File FileName="Assets\MyScript\ObjectHideScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\MyScript\SceneLoad.cs" Line="1" Column="1" />
+      <File FileName="Assets\MyScript\SceneLoad.cs" Line="21" Column="54" />
       <File FileName="Assets\MyScript\InitialFadeIn.cs" Line="1" Column="1" />
+      <File FileName="Assets\MyScript\Manager.cs" Line="1" Column="1" />
+      <File FileName="Assets\MyScript\CircularFiller.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

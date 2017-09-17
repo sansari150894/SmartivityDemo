@@ -12,6 +12,8 @@ public class Manager : MonoBehaviour {
 	public int remainingCube = 3;
 	public  List <GameObject> list=new List<GameObject>();
 
+	public MeshRenderer mr;
+
 
 	void Start () {
 		instance = this;

@@ -5,27 +5,22 @@ using DG.Tweening;
 using UnityEngine.UI;
 
 public class ObjectHideScript : MonoBehaviour {
-
-	// Use this for initialization
+	
 	void Start () {
-		Manager.instance.anim.SetBool ("Fade",true);
 		Invoke ("Reset",0f);
 	}
-	
-	// Update is called once per frame
 	void Update () {
-		
 	}
 
-	public void HideObject(){
+	public void HideObject(){	
+		
+		Manager.instance.mr.materials [0].DOColor (new Color32(0,0,0,255),1f);
 		GameObject g = gameObject;
 		gameObject.SetActive (false);
 		Manager.instance.list.Add (g);
 		Manager.instance.remainingCube--;
-		Manager.instance.anim.SetBool ("Fade",true);
-		Invoke ("Reset",0f);
+		Invoke ("Reset",1f);
 		if(Manager.instance.remainingCube<2){
-			//GenerateCube ();
 			Invoke ("GenerateCube",1f);
 		}
 	}
@@ -40,7 +35,8 @@ public class ObjectHideScript : MonoBehaviour {
 	}
 
 	void Reset(){
-		print ("FadeOutisCalled");
-		Manager.instance.anim.SetBool ("Fade",false);
+		Manager.instance.mr.materials [0].DOColor (new Color32(0,0,0,0),1f);
 	}
+
+
 }
